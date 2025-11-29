@@ -70,42 +70,11 @@ Before installing the OS, perform disk preparation:
 
 ---
 
-## Step 5 — Attach Windows Server ISO and Start VM
-1. Go to **Settings → Storage → Empty → Choose disk file**  
-2. Select the downloaded Server 2022 ISO  
-3. Start the virtual machine
-
-**Screenshot:**  
-![Attach ISO](./attach-iso.png)
-
----
-
-## Step 6 — Install Windows Server 2022
-1. Select language, time, and keyboard layout  
-2. Click **Install Now**  
-3. Choose **Windows Server 2022 Standard (Desktop Experience)**  
-4. Accept license terms and choose **Custom: Install Windows only**  
-5. Select the virtual hard drive and click **Next**  
-
-**Screenshot:**  
-![Installing Windows Server](./installing-server.png)
-
----
-
-## Step 7 — Set Administrator Password
+## Step 5 — Set Administrator Password
 After installation, set the **Administrator password**.  
 
 **Screenshot:**  
 ![Set Admin Password](./set-password.png)
-
----
-
-## Step 8 — Login and Confirm Installation
-Press **Ctrl + Alt + Delete** in VirtualBox, log in with your password.  
-Check that the server desktop loads successfully.
-
-**Screenshot:**  
-![Server Desktop](./server-desktop.png)
 
 ---
 
