@@ -65,8 +65,8 @@ Before installing the OS, perform disk preparation:
 
 **Screenshot:**  
 ![Finish](../images/lab1/next.png)
-![Finish](../images/lab1/next.png)
-![Finish](../images/lab1/next.png)
+![Finish](../images/lab1/evaluation.png)
+![Finish](../images/lab1/custom.png)
 
 ---
 
