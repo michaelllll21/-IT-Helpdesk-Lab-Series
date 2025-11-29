@@ -72,9 +72,11 @@ Before installing the OS, perform disk preparation:
 
 ## Step 5 — Set Administrator Password
 After installation, set the **Administrator password**.  
+Ctrl + Del, on the right side so you can enter your pass in vm
 
 **Screenshot:**  
-![Set Admin Password](./set-password.png)
+![Password](../images/lab1/password.png)
+![Done](../images/lab1/done.png)
 
 ---
 
