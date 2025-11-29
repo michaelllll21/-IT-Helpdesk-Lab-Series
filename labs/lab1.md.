@@ -12,10 +12,10 @@ Download VirtualBox from the official website:
 
 [VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
 
-Since this lab is on a Windows PC, select **Windows hosts**.  
+Since this lab is on a Windows PC, select **Windows hosts**.
 
-**Screenshot placeholder:**  
-![VirtualBox download](../images/lab1/virtualbox-download.png)
+**Screenshot:**  
+![VirtualBox Download](./virtualbox-download.png)
 
 ---
 
@@ -24,12 +24,11 @@ Download Windows Server 2022 from the Microsoft Evaluation Center:
 
 [Windows Server 2022 Evaluation](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
 
-- You will need to register for the free trial (180 days).  
-- Save the ISO file for installation in VirtualBox.
+To access the free trial, register your information.  
+The trial lasts **180 days**.
 
-**Screenshot placeholder:**  
-![ISO Download](./iso%20download.png)
-
+**Screenshot:**  
+![ISO Download](./iso-download.png)
 
 ---
 
@@ -40,8 +39,8 @@ Before installing the OS, perform disk preparation:
 2. Create a new virtual hard drive in VirtualBox.  
 3. Format the virtual hard drive to ensure a clean installation.
 
-**Screenshot placeholder:**  
-![Disk preparation](../images/lab1/disk-sanitization.png)
+**Screenshot:**  
+![Disk Preparation](./disk-sanitization.png)
 
 ---
 
@@ -54,8 +53,8 @@ Open VirtualBox and click **New**:
 - Memory: `4096 MB` (or higher if available)  
 - Create a new virtual hard disk (50GB recommended)
 
-**Screenshot placeholder:**  
-![Create VM](../images/lab1/create-vm.png)
+**Screenshot:**  
+![Create VM](./create-vm.png)
 
 ---
 
@@ -64,8 +63,8 @@ Open VirtualBox and click **New**:
 2. Select the downloaded Server 2022 ISO  
 3. Start the virtual machine
 
-**Screenshot placeholder:**  
-![Attach ISO](../images/lab1/attach-iso.png)
+**Screenshot:**  
+![Attach ISO](./attach-iso.png)
 
 ---
 
@@ -76,25 +75,25 @@ Open VirtualBox and click **New**:
 4. Accept license terms and choose **Custom: Install Windows only**  
 5. Select the virtual hard drive and click **Next**  
 
-**Screenshot placeholder:**  
-![Installing Windows Server](../images/lab1/installing-server.png)
+**Screenshot:**  
+![Installing Windows Server](./installing-server.png)
 
 ---
 
 ## Step 7 — Set Administrator Password
-After installation, you will be prompted to set the **Administrator password**.  
+After installation, set the **Administrator password**.  
 
-**Screenshot placeholder:**  
-![Set Admin Password](../images/lab1/set-password.png)
+**Screenshot:**  
+![Set Admin Password](./set-password.png)
 
 ---
 
 ## Step 8 — Login and Confirm Installation
-Press **Ctrl + Alt + Delete** in VirtualBox, log in with the password you set.  
+Press **Ctrl + Alt + Delete** in VirtualBox, log in with your password.  
 Check that the server desktop loads successfully.
 
-**Screenshot placeholder:**  
-![Server Desktop](../images/lab1/server-desktop.png)
+**Screenshot:**  
+![Server Desktop](./server-desktop.png)
 
 ---
 
