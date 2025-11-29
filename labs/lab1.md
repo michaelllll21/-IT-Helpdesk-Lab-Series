@@ -45,9 +45,9 @@ Before installing the OS, perform disk preparation:
 3. Format the virtual hard drive to ensure a clean installation.
 
 **Screenshot:**  
-![New](..images/lab1/Create-vm.png.png)
-![New](..images/lab1/iso-file.png.png)
-![New](..images/lab1/finish.png.png)
+![Create VM](../images/lab1/Create-vm.png)
+![ISO File](../images/lab1/iso-file.png)
+![Finish](../images/lab1/finish.png)
 
 ---
 
