@@ -52,14 +52,20 @@ Before installing the OS, perform disk preparation:
 ---
 
 ## Step 4 — Install Windows server
+1. Boot up the virtual machine by clicking the **Start** button.  
+   A prompt for the Microsoft Server Operating System Setup will appear.  
+   Click **Next**, then select **Install Now** to begin the installation process.
 
+2. In the operating system selection screen, choose  
+   **Windows Server 2022 Standard Evaluation (Desktop Experience)**, then click **Next** to continue.
 
-1.Now, we’ll boot up the virtual machine by clicking the "Start" button. A prompt for the Microsoft Server Operating System Setup will appear. Click "Next," then select "Install Now" to begin the installation process.
-2.In the operating system selection screen, choose "Windows Server 2022 Standard Evaluation (Desktop Experience)," then click "Next" to continue.
-3.Accept the terms and click "Next." In the next step, when prompted to choose the type of installation, select "Custom" to proceed.
+3. Accept the license terms and click **Next**.  
+   When prompted to choose the type of installation, select **Custom** to proceed.
 
 
 **Screenshot:**  
+![Finish](../images/lab1/next.png)
+![Finish](../images/lab1/next.png)
 ![Finish](../images/lab1/next.png)
 
 ---
