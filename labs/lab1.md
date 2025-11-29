@@ -47,7 +47,7 @@ Before installing the OS, perform disk preparation:
 **Screenshot:**  
 ![Create VM](../images/lab1/Create-vm.png)
 ![ISO File](../images/lab1/iso-file.png)
-![Finish](../images/lab1/finish.png)
+![Finish](..images/lab1/finish.png)
 
 ---
 
