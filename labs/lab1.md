@@ -60,7 +60,7 @@ Before installing the OS, perform disk preparation:
 
 
 **Screenshot:**  
-![Create VM](./create-vm.png)
+![Finish](../images/lab1/next.png)
 
 ---
 
