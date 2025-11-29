@@ -27,6 +27,7 @@ Download Windows Server 2022 from the Microsoft Evaluation Center:
 
 To access the free trial, register your information.  
 The trial lasts **180 days**.
+After filling our information, we can finally download the ISO which will be the 64-bit edition (English).
 
 **Screenshot:**  
 ![ISO Download](../images/lab1/iso-download.png)
