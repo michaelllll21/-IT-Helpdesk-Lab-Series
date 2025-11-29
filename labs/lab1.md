@@ -28,7 +28,7 @@ To access the free trial, register your information.
 The trial lasts **180 days**.
 
 **Screenshot:**  
-![ISO Download](./iso-download.png)
+![ISO Download](labs/iso download.png)
 
 ---
 
