@@ -15,7 +15,7 @@ Download VirtualBox from the official website:
 Since this lab is on a Windows PC, select **Windows hosts**.
 
 **Screenshot:**  
-![VirtualBox Download](./virtualbox-download.png)
+![VirtualBox Download](images/lab1/virtualbox-download.png)
 
 ---
 
