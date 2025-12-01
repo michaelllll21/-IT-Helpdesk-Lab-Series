@@ -84,3 +84,15 @@ and install
 
 ![Rename Step 3](../images/lab2/install.png)
 
+Select “Promote this server to a domain controller”.
+
+![Rename Step 3](../images/lab2/simo.png)
+
+Create a password for our Directory Service Restore Mode (DSRM) then click “Next”.
+
+![Rename Step 3](../images/lab2/password2.png)
+
+We can uncheck “Create DNS delegation” then click “Next” then “Install”.
+
+![Rename Step 3](../images/lab2/install2.png)
+
