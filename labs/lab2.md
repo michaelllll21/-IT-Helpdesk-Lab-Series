@@ -75,4 +75,12 @@ To optimize our performance for running virtual labs more efficiently, let's go 
 
 Next, we will install Active Directory on our Server2022. Open Server Manager, click on "Manage" in the top right corner, then select "Add Roles and Features." Click "Next," then choose "Role-based or feature-based installation" and click "Next" again to proceed.
 
+![Rename Step 3](../images/lab2/addrole.png)
+![Rename Step 3](../images/lab2/rolebased.png)
+![Rename Step 3](../images/lab2/justnext.png)
+
+Select "Active Directory Domain Services," then click "Add Features" when prompted. After that, click "Next" to continue.
+and install
+
+![Rename Step 3](../images/lab2/install.png)
 
