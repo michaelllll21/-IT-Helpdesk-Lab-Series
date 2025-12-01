@@ -5,7 +5,7 @@ IT-Helpdesk-Lab-Series is a virtualized home-lab setup using VirtualBox that sim
 ## References
 
 - **SIMOTECH – Active Directory Home Lab Setup Tutorial**  
-  https://github.com/Simokid/IT-Helpdesk-Lab-Series?tab=readme-ov-file/INSERT-LINK-HERE
+  https://github.com/Simokid/IT-Helpdesk-Lab-Series?tab=readme-ov-file
 
 (Documentation created for educational purposes.)
 
