@@ -99,3 +99,18 @@ We can uncheck “Create DNS delegation” then click “Next” then “Install
 ---
 If after you reststart and you end up to the install of windows server power off the vm and go to the settings, storage and remove the iso file in your sata and open your vm again
 
+---
+
+After this process, the virtual machine will restart to install Active Directory Domain Services. Once the restart is complete, sign back in by selecting "Input" and clicking the "Ctrl + Del" right side button. You will notice that the domain controller is now listed as "SIMOTECH\Administrator." Go ahead and sign in to your account using the domain credentials.
+
+![Rename Step 3](../images/lab2/windows.png)
+
+Once signed in, with Server Manager open, click on "Tools" in the top right corner, then select "Active Directory Users and Computers" from the dropdown menu.
+
+![Rename Step 3](../images/lab2/usercomp.png)
+![Rename Step 3](../images/lab2/end.png)
+
+Congratulations we have successfully created a domain controller (SimoTech.com) with Active Directory installed!
+
+
+
