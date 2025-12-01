@@ -96,3 +96,6 @@ We can uncheck “Create DNS delegation” then click “Next” then “Install
 
 ![Rename Step 3](../images/lab2/install2.png)
 
+---
+If after you reststart and you end up to the install of windows server power off the vm and go to the settings, storage and remove the iso file in your sata and open your vm again
+
