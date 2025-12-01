@@ -63,5 +63,13 @@ Dapat mag-boot ulit sa Windows Server installer.
 **Screenshot:**  
 ![Rename Step 3](../images/lab2/error.png)
 
+---
+
+To optimize our performance for running virtual labs more efficiently, let's go to the search bar at the bottom left, type "About your PC," and select "Advanced system settings." In the "System Properties" window, click on the "Settings..." button under the "Performance" section. In the "Performance Options" window, select "Adjust for best performance," then click "OK" to apply the changes.
+
+![Rename Step 3](../images/lab2/advance.png)
+![Rename Step 3](../images/lab2/settings.png)
+![Rename Step 3](../images/lab2/best.png)
+
 
 
