@@ -1,4 +1,4 @@
-<img width="1002" height="636" alt="image" src="https://github.com/user-attachments/assets/87d4c235-4a56-4f44-8f41-4eee78c44c3b" /># Lab 4 — Installing Windows 10, Joining a PC to the Domain, Installing RSAT, and Using Server Manager
+### Lab 4 — Installing Windows 10, Joining a PC to the Domain, Installing RSAT, and Using Server Manager
 
 ## Overview
 In this lab, we will install **Windows 10**, join it to our **SimoTech.com** domain using the **Helpdesk account**, install **RSAT (Remote Server Administration Tools)**, and verify domain management using **Server Manager**.  
