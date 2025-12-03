@@ -7,7 +7,9 @@ This simulates real-world helpdesk responsibilities and domain onboarding tasks.
 ---
 
 ## Objectives
-- Install and set up Windows 10 in VirtualBox  
+- Install and set up Windows 10 in VirtualBox
+ Windows 10 Installation Media Tool.
+
 - Join a Windows 10 PC to the SimoTech.com domain  
 - Log in using the Helpdesk domain account  
 - Install RSAT to manage Active Directory from a client machine  
