@@ -1,37 +1,25 @@
-# Lab 5 – Creating Organizational Units (OUs), Users, and Groups in Active Directory
+# Lab 5 – Lab 5 Join Windows 10 to Domain (Local User), Group Policy, RSOP Reports
 
 ## Overview
 In this lab, I created Organizational Units (OUs), users, and groups inside Active Directory on the SimoTech.com domain.  
 This simulates real-world IT administration where AD structures help organize users, assign permissions, and prepare for Group Policies.
 
 ## Objectives
-- Create Organizational Units (OUs)
-- Create department groups (Security Groups)
-- Create user accounts per department
-- Add users to their appropriate groups
-- Verify accounts using CMD
+Join a Windows 10 PC to a domain with a local user account.
+Configure and apply Group Policy Objects (GPOs) to enforce settings on domain-joined computers.
+Generate RSOP (Resultant Set of Policy) reports to review and troubleshoot applied policies.
+Use Group Policy Management Console (GPMC) to manage and configure GPOs.
+---
+
+##Documentation
+In this home lab, we will create another virtual machine running Windows 10, named Desktop2, to simulate a local user account for testing purposes. This virtual machine will represent an employee in our lab environment. For example, if this user encounters password issues, we can reset it using the Help Desk account on our primary Windows 10 virtual machine.
 
 ---
 
-## 1. Open Active Directory Users and Computers
-- Log in to **Server2022**.
-- Open **Server Manager → Tools → Active Directory Users and Computers**.
-- Enable **View → Advanced Features**.
+To create the new virtual machine, click on Machine → New, then name it Desktop2. Select the Windows ISO image from your downloads, choose Skip unattended installation, and then click Finish.
 
----
 
-## 2. Create Organizational Units
-Created the following OUs:
 
-- `SimoTech Users`
-- `SimoTech Computers`
-- `SimoTech Groups`
-
-**Steps:**
-1. Right-click **SimoTech.com**
-2. Click **New → Organizational Unit**
-3. Type the OU name
-4. Repeat for all three OUs
 
 ---
 
