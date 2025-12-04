@@ -11,12 +11,26 @@ Generate RSOP (Resultant Set of Policy) reports to review and troubleshoot appli
 Use Group Policy Management Console (GPMC) to manage and configure GPOs.
 ---
 
-##Documentation
+## Documentation
 In this home lab, we will create another virtual machine running Windows 10, named Desktop2, to simulate a local user account for testing purposes. This virtual machine will represent an employee in our lab environment. For example, if this user encounters password issues, we can reset it using the Help Desk account on our primary Windows 10 virtual machine.
 
 ---
 
-To create the new virtual machine, click on Machine → New, then name it Desktop2. Select the Windows ISO image from your downloads, choose Skip unattended installation, and then click Finish.
+To create the new virtual machine, click on **Machine → New**, then name it **Desktop2**.  
+Select the Windows ISO image from your downloads, choose **Skip unattended installation**, and then click **Finish**.  
+The process will be the same as we did for our other Windows 10 virtual machine:  
+Select **Next → Install now → I don't have a product key**.  
+Select **Windows 10 Pro**, then click **Next → Custom: Install Windows only → Next**.
+
+
+![Rename Step 1](../images/lab4/step1-1.png)
+
+
+Continue with the same configurations as before for the Windows 10 Helpdesk account. Select Personal Use, then enter User for the name and skip the password creation.
+
+![Rename Step 1](../images/lab4/step1-1.png)
+
+
 
 
 
