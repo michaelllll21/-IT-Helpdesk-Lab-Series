@@ -118,7 +118,7 @@ Another way to remote into a users is using Windows Remote Assistance by typing 
 
 
 Another way to remote into a users is using Windows Remote Assistance by typing “Windows Remote Assistance” in the Windows search on Desktop2 → then select “Invite someone you trust to help you”.
-
+If you dont have that, Windows + R TYPE "msra" 
 
 ![Rename Step 1](../images/lab7/step1-1.png)
 
