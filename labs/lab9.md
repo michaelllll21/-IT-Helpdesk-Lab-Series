@@ -19,35 +19,39 @@ In this home lab, we will use RSOP commands, Group Policy Management, Task Manag
 To do this, open Server Manager on your Windows Server 2022 account. Then, select Tools and click on Group Policy Management. In the Group Policy Management console, select Group Policy Objects under the SimoTech.com domain. From here, we can configure the Group Policy to disable Task Manager.
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-1.png)
 
 
 
 Next, right-click on Group Policy Objects and select New. Name the new policy "Task Manager". After creating it, select the Task Manager policy under Group Policy Objects. Then, go to the Delegations tab and select Add. Add Bob to grant him the necessary permissions for this policy.
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-2.png)
+
 
 
 Right-click on Task Manager, select Edit, then go to User Configuration → Administrative Templates → System. Next, select Ctrl+Alt+Del Options.
 
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-3.png)
+
 
 
 
 Here we will enable “Remove Change Password” and “Remove Task Manager”
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-4.png)
+
 
 
 
 Then back on the Group Policy Management, grab the “Task Manager” and move it to “HR”. Select “Yes”
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-5.png)
+
 
 
 
@@ -55,35 +59,39 @@ Select “Enforced” by right-clicking on it.
 
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-6.png)
+
 
 
 
 Now, on Bob's account on Desktop2, open CMD and type the command gpupdate /force. This will immediately refresh the Group Policy settings for both the computer and user accounts.
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-7.png)
+
 
 
 
 After updating the Group Policy on Bob's computer, right-click on the taskbar, and you'll see that Task Manager is now greyed out, indicating that access has been successfully disabled.
 
 
+![Rename Step 1](../images/lab9/step1-8.png)
 
-![Rename Step 1](../images/lab8/step1-1.png)
 
 
 
 If we press Ctrl+Alt+Del on the virtual machine, we will see that the Change Password option has been removed, reflecting the changes made through Group Policy.
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-9.png)
+
 
 
 
 To check which group policies have been applied to Bob's computer, open the command line and type gpresult /r. This will display the results of the Group Policy settings for both the computer and user accounts.
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-10.png)
+
 
 
 
@@ -91,7 +99,8 @@ If you type taskmgr in the command line, a prompt will appear stating that Task 
 
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-11.png)
+
 
 
 
@@ -99,7 +108,8 @@ If you run Command Prompt as Administrator and then type taskmgr, Task Manager s
 
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-12.png)
+
 
 
 
@@ -107,7 +117,8 @@ To generate a Group Policy report, go to Group Policy Management, right-click on
 
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-13.png)
+
 
 
 
@@ -115,19 +126,21 @@ Click Next, then select Another Computer and click Browse. Type in Desktop2 and 
 
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-14.png)
+
 
 
 Select SimoTech\Bob, click Next, and then click Finish. This will generate a report for Bob's Group Policy settings.
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-15.png)
+
 
 
 If you select the Details tab at the top of the report, it will display all of the policies that have been applied to Bob's account, giving you a detailed view of the Group Policy settings.
 
 
-![Rename Step 1](../images/lab8/step1-1.png)
+![Rename Step 1](../images/lab9/step1-16.png)
 
 
 ---
