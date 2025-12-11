@@ -16,13 +16,13 @@ In this home lab, I will demonstrate how to install PDQ Deploy, create software 
 
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-1.png)
 
 
 Now lets open up File Explore and we see that CD Drive (D) VirtualBox Guest additions has been added.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-2.png)
 
 
 
@@ -30,65 +30,66 @@ Double-click on VirtualBox Guest and click Next until you reach the Install opti
 
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-3.png)
 
 
 After selecting the SimoTech Lab folder, right-click on the disk icon at the bottom of the screen and select Remove Disk from Virtual Drive.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
-
+![Rename Step 1](../images/lab10/step1-4.png)
 
 
 Next we will go onto our web browser and go to https://www.pdq.com/downloads/ to download PDQ Deploy and PDQ Inventory.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-5.png)
 
 
 We can go back to our Windows Server 2022, open File Explorer, and see that the Z: drive for SimoTech Lab is available. Once we open it, we will find the PDQ Deploy applications. We can then drag the application onto the desktop and begin the installation.
 if you dont see the file, net use Z: "\\VBOXSVR\SimoTech Lab" in cmd
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-6.png)
 
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-7.png)
 
 
 
 Select “Next” → accept the terms → “Next” then install.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-8.png)
 
 
 
 Once the installation is finished, we can launch the application. Next we sign into our Administrator credentials.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-9.png)
 
 
 
 Now that PDQ Deploy is ready, let's re-enable our internet connection. To do this, we need to go to Devices → Network → Network Settings, and change the setting to NAT. Then, open Control Panel → View Network Status and Tasks, and click on Change Adapter Settings. Right-click on Ethernet and select Properties. Next, double-click on Internet Protocol Version 4, and set it to Obtain an IP address automatically.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-10.png)
 
 
 
 Our internet should now be active. To verify, we can open Command Prompt and ping google.com. Additionally, the internet icon on the bottom right of the screen should be available, indicating a successful connection.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-11.png)
+
+
 
 
 Now, let's go back to PDQ Deploy and select "Extend" to activate the inactive subscription.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-12.png)
 
 
 
@@ -96,22 +97,21 @@ Extending the subscription will grant us a free trial of the Enterprise version,
 use temp mail to login if wala ka business email.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-13.png)
 
 
 
 Double-click on the Mozilla Firefox package, and it will automatically start downloading. Once completed, it will appear in the Packages section.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-14.png)
 
 
 
 Right click on Mozilla Firefox and select “Deploy once”
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
-
+![Rename Step 1](../images/lab10/step1-15.png)
 
 
 Then select “Choose targets” → “Active Directory” → “Computers”
@@ -119,7 +119,7 @@ Then select “Server2022” as our target then select “OK”.
 Select “Deploy Now”.
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-16.png)
 
 
 
@@ -127,7 +127,7 @@ We have officially deploy Mozilla Firefox, the deploy worked perfectly and we ca
 
 
 
-![Rename Step 1](../images/lab9/step1-1.png)
+![Rename Step 1](../images/lab10/step1-17.png)
 
 
 
