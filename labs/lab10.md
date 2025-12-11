@@ -131,7 +131,7 @@ We have officially deploy Mozilla Firefox, the deploy worked perfectly and we ca
 
 
 
-et's switch back to a static IP. Open Control Panel and navigate to View Network Status and Tasks → Change Adapter Settings. Right-click on the network connection (Ethernet) and select Properties to begin configuring the network settings.
+Let's switch back to a static IP. Open Control Panel and navigate to View Network Status and Tasks → Change Adapter Settings. Right-click on the network connection (Ethernet) and select Properties to begin configuring the network settings.
 
 Enter the previously configured static IP settings:
 
