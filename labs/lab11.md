@@ -14,20 +14,20 @@ Create Custom Reports: Learn how to build and customize reports to track hardwar
 In this home lab, I will showcase the installation and uses of PDQ Inventory. To start, open File Explorer and navigate to the SimoTech folder. Inside, you should find the PDQ Inventory application.
 
 
-![Rename Step 1](../images/lab10/step1-1.png)
+![Rename Step 1](../images/lab11/step1-1.png)
 
 
 
 We can double click on the application to start the installation then continue it to install to finish. Launch the application once finish.
 
 
-![Rename Step 1](../images/lab10/step1-1.png)
+![Rename Step 1](../images/lab11/step1-2.png)
 
 
 Lets add Desktop2 to PDQ Inventory, to do that select “Computers” on top → “Add computers” then “Active Directory - Browse by Name” then select “Desktop2.SimoTech.com” as the target to add then select “OK”.
 
 
-![Rename Step 1](../images/lab10/step1-1.png)
+![Rename Step 1](../images/lab11/step1-3.png)
 
 
 
@@ -37,14 +37,14 @@ Here are some of the features we can use in PDQ Inventory: Right-click on Deskto
 
 
 
-![Rename Step 1](../images/lab10/step1-1.png)
+![Rename Step 1](../images/lab11/step1-4.png)
 
 
 This show us all the folders that are mapped on it. Lets double click on “ADMIN$”
 
 
 
-![Rename Step 1](../images/lab10/step1-1.png)
+![Rename Step 1](../images/lab11/step1-5.png)
 
 
 
