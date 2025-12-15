@@ -1,4 +1,4 @@
-Lab 12 –  Lab 12 Printer Setup on Server 2022, NTFS Permissions
+#Lab 12 –  Lab 12 Printer Setup on Server 2022, NTFS Permissions
 
 ## Overview
 This repository documents my home lab focused on Printer Setup on Server 2022 and NTFS Permissions using VirtualBox. The lab explores configuring printers on a Windows Server 2022 machine, setting up shared printers for network use, and managing NTFS file permissions to control access to shared resources.
