@@ -51,7 +51,7 @@ This show us all the folders that are mapped on it. Lets double click on “ADMI
 It will give us all the details and specifications that are on that computer, such as who is logged in currently, what the domain controller is, the host name, what operating system it is, and what version of Windows it is using.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-6.png)
 
 
 
@@ -62,55 +62,55 @@ On the left-hand side, we can see all the items we can explore on Desktop2. Let'
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-7.png)
 
 
 To verify if we have these applications downloaded, let's go to our Desktop2 VM and open Control Panel → Uninstall a Program. This will display the list of applications installed on Desktop2 under Bob's account.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-8.png)
 
 
 
 We can also navigate to the CPU section on the left to see how many CPU cores are available on Desktop2. It will also provide information about the processors being used on the system.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-9.png)
 
 
 
 The Environment tab on the left shows us the path directories configured on Desktop2 as well.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-10.png)
 
 
 We can look into Printers and see which printer machines are installed on Desktop2 as well.
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-11.png)
 
 
 
 On the Shares tab, we can see our shared drives.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-12.png)
 
 
 If we wanted to remote admin into Desktop2 then double click on “ADMIIN$”, here we can see things on a system level.
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-13.png)
 
 
 
 If we wanted to add a specific file to Desktop2, we can double click on “C$” then add anything in there.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-14.png)
 
 
 
@@ -119,7 +119,7 @@ Lets copy the text document “results” then go into “Users” → into “B
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-15.png)
 
 
 
@@ -128,7 +128,7 @@ Paste the copied "results" file onto the Desktop, and we can see that the file w
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-16png)
 
 
 
@@ -136,7 +136,7 @@ Some additional features in PDQ Inventory include Manage with MMC, which allows 
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-17.png)
 
 
 
@@ -144,7 +144,7 @@ Some additional features in PDQ Inventory include Manage with MMC, which allows 
 We can create a new user on Desktop2 if we wanted to by using this feature.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-18.png)
 
 
 
@@ -152,11 +152,11 @@ We can create a new user on Desktop2 if we wanted to by using this feature.
 Another tool we can use is “Remote Desktop” if we want to remote into Desktop2 from PDQ Inventory.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-19.png)
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-20.png)
 
 
 
@@ -165,13 +165,13 @@ Another powerful feature we can use is remotely rebooting Desktop2. To do this, 
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-21.png)
 
 
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-22.png)
 
 
 
@@ -179,7 +179,7 @@ Now, let's print a report on Desktop2. Return to the home page in All Computers,
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-23.png)
 
 
 
@@ -188,14 +188,14 @@ Now, let's print a report on the hardware devices on Desktop2. Right-click on De
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-24.png)
 
 
 
 Select the printer icon on the top left to preview the report. This will display a list of all the hardware devices associated with Desktop2.
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-25.png)
 
 
 
@@ -204,7 +204,7 @@ Lastly, we can launch PDQ Deploy for Desktop2 through PDQ Inventory. In All Comp
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-26.png)
 
 
 
@@ -212,7 +212,7 @@ From here, we can deploy applications or software packages onto Desktop2 using t
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-27.png)
 
 
 
@@ -220,7 +220,7 @@ Notice on the left that Desktop2.SimoTech.com is the target for the Firefox appl
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-28.png)
 
 
 
@@ -228,7 +228,7 @@ Now, we can see that Firefox has been successfully installed on our Desktop2 VM 
 
 
 
-![Rename Step 1](../images/lab11/step1-5.png)
+![Rename Step 1](../images/lab11/step1-29.png)
 
 
 
