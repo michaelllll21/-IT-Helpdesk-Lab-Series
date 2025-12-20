@@ -19,7 +19,7 @@ To begin, we will create an account for Spiceworks using an email. After the acc
 From there, we will dive into the ticketing system to understand how it works and how we can use it for managing IT support requests.
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-1.png)
 
 
 
@@ -27,7 +27,7 @@ Here on the Spiceworks dashboard, we have a centralized interface for IT profess
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-2.png)
 
 
 
@@ -35,7 +35,7 @@ Let's take a look at creating a ticket and the properties involved in the proces
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-3.png)
 
 
 
@@ -55,7 +55,8 @@ Category: This classifies the ticket into a specific group, such as Email, Hardw
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-4.png)
+
 
 
 
@@ -69,11 +70,11 @@ Click on Add Employee.
 Assign the role of Tech to the new helpdesk technician to ensure they have limited access to tickets and settings.
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-5.png)
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-6.png)
 
 
 
@@ -83,7 +84,7 @@ We will need to use a real email but creating email should be easy. Once we crea
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-7.png)
 
 
 
@@ -95,7 +96,7 @@ Once we receive Bob’s email, we'll create a new ticket in the system to docume
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-8.png)
 
 
 
@@ -103,7 +104,7 @@ Once we receive Bob’s email, we'll create a new ticket in the system to docume
 In this step, I'll act as Bob and send an email to the domain's Helpdesk to report the issue. The email will be directed to the Helpdesk address, and we should now receive it in our Spiceworks ticketing system. Once the email arrives, it will automatically generate a new ticket that we can manage and resolve.
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-9.png)
 
 
 
@@ -114,7 +115,7 @@ Now that our ticket has been issue, we can accept the ticket and assignee to our
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-10.png)
 
 
 
@@ -123,7 +124,7 @@ Once we receive the email, we'll click Accept to start working on the ticket. Ne
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-11.png)
 
 
 
@@ -131,7 +132,7 @@ We can also set up tasks to guide our Helpdesk technician. I've implemented thre
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-12.png)
 
 
 
@@ -139,7 +140,7 @@ Our helpdesk will contact Bob with issue being fix after everything is sorted th
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-13.png)
 
 
 
@@ -147,7 +148,7 @@ We can check our past tickets by selecting the drop down on “Open” to “Clo
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-14.png)
 
 
 
@@ -155,7 +156,7 @@ Spiceworks offers a unique feature that enables remote support for users in need
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-15.png)
 
 
 
@@ -175,27 +176,27 @@ Double-click on Internet Protocol Version 4 (TCP/IPv4), then change the setting 
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-16.png)
 
 
 Next, let's open Firefox, which we've already installed using PDQ Deploy. In the browser, navigate to https://join.zoho.com/587255844 and enter the session ID. Click on Agree and Download, then run the ZA_Connect.exe file to join the remote session.
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-17.png)
 
 
 
 Now, back in our Spiceworks browser, we have full remote access to Desktop2 VM on Bob’s account.
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-18.png)
 
 
 
 With Remote Support, there are many tools at our disposal. One useful feature is the Chat option on the left side of the panel, which allows us to communicate directly with the user. The chat box will open on the right side of the screen.
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-19.png)
 
 
 
@@ -205,7 +206,7 @@ On our Desktop2 VM, we can see that the Chat feature is available for the user t
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-20.png)
 
 
 
@@ -213,7 +214,7 @@ For tools, we can launch different commands such as opening up command prompt.
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-21.png)
 
 
 
@@ -221,13 +222,13 @@ We can also open up Device Manager.
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-22.png)
 
 
 To elevate to Admin Mode, use your Administrator credentials. First, select the session on the left side panel, then click on Elevate to Admin Mode. For the user, enter Administrator@SimoTech.com and provide the password.
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-23.png)
 
 
 
@@ -236,7 +237,7 @@ With Admin Mode enabled, we can now use the session tool Send Alt+Ctrl+Del.
 
 
 
-![Rename Step 1](../images/lab12/step1-1.png)
+![Rename Step 1](../images/lab13/step1-24.png)
 
 
 
