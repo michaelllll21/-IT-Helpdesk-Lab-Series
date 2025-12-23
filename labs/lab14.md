@@ -12,7 +12,7 @@ Account Lockout Management: Configuring and testing account lockout policies to 
 In this home lab, we will focus on understanding Delegation Control and Account Lockout. Delegation involves granting a user limited access through Active Directory. To begin, we will create a new user in Active Directory Users and Computers on our Windows Server 2022 VM.
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-1.png)
 
 
 
@@ -20,13 +20,13 @@ In this home lab, we will focus on understanding Delegation Control and Account 
 We will create a user named Andrew for both the First and Last Name, and his login username will also be Andrew.
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-2.png)
 
 
 After creating the user Andrew, we will create a new Organizational Unit (OU). Right-click on the domain SimoTech.com, select New → Organizational Unit, and name it Consultants. Then, drag Andrew into the newly created Consultants OU and click Yes to confirm.
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-3.png)
 
 
 
@@ -34,7 +34,7 @@ Next right click on the domain SimoTech.com and select “Delegate Control”
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-4.png)
 
 
 
@@ -42,13 +42,13 @@ Then add “Andrew”.
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-5.png)
 
 
 Will only give Andrew the permission to reset passwords for other users. Check mark “Reset user passwords and force password change at next logon”. Then select “Next” then “Finish”.
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-6.png)
 
 
 
@@ -56,7 +56,7 @@ Now that the setup is complete, let's log in as Andrew on our Windows 10 VM. Ope
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-7.png)
 
 
 
@@ -68,7 +68,7 @@ Next, let's lock out Andrew's account. Use the Input button at the top of the VM
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-8.png)
 
 
 
@@ -76,14 +76,14 @@ To investigate a user account that has been locked out, we can use a tool from M
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-9.png)
 
 
 
 Next, we need to enable shared folders on our Windows Server 2022 VM. Right-click on the folder icon at the bottom and select Share Folder Settings. For the Folder Path, locate the SimoTech Lab folder in our Downloads directory. Check the box for Auto-mount and click OK.
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-10.png)
 
 
 
@@ -91,14 +91,14 @@ The SimoTech Lab folder should now appear as our Z: drive. Open the Z: drive, th
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-11.png)
 
 
 
 For extraction location, choose the Documents and select “OK”.
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-12.png)
 
 
 
@@ -107,7 +107,7 @@ For extraction location, choose the Documents and select “OK”.
 In Documents, open the LockoutStatus application. This tool is designed to analyze and manage account lockouts in Active Directory environments. It's especially useful in large or complex networks where account lockouts may be caused by issues such as misconfigured applications, password synchronization problems, or unauthorized access attempts.
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-13.png)
 
 
 
@@ -116,7 +116,7 @@ Navigate to File in the top-left corner and select Select Target. Enter Andrew a
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-14.png)
 
 
 
@@ -137,14 +137,14 @@ Click Apply to unlock the account.
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-15.png)
 
 
 
 Now we can have Andrew sign back into his account.
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-16.png)
 
 
 
@@ -153,7 +153,7 @@ If we run the Bobby application again and search for Andrew, the results will sh
 
 
 
-![Rename Step 1](../images/lab4/step1-1.png)
+![Rename Step 1](../images/lab14/step1-17.png)
 
 
 ---
