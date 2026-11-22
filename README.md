@@ -61,6 +61,7 @@ This project serves as part of my IT support and networking portfolio.
 | [Lab 12](labs/lab12.md) | Printer Setup on Server 2022 and NTFS Permissions | Print services, printer sharing, permissions |
 | [Lab 13](labs/lab13.md) | Understanding Tickets Using Spiceworks | Ticket creation, assignment, priority, resolution workflow |
 | [Lab 14](labs/lab14.md) | Delegate Control and Account Lockout Management | Delegated permissions, password reset rights, lockout investigation |
+| [Lab 15](labs/lab15.md) | Installing osTicket and Managing Helpdesk Tickets | osTicket setup, ticket workflow, troubleshooting |
 
 ## Lab Screenshots
 Screenshots for each lab are stored in the `images` folder.
